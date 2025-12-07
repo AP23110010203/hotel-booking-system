@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/716454dc-9e51-4eb5-89c1-0d4bbad72317
+
 # Blue Horizon Escape Hotel Booking
 
 Premium single-hotel booking experience for Blue Horizon Escape — a boutique Maldives retreat. Built with React, CSS-powered animations, and JSON Server to simulate the backend.
