@@ -1,0 +1,54 @@
+.dashboard__content h1 {
+  font-family: 'Playfair Display', serif;
+}
+
+.dashboard__sidebar .btn {
+  width: 100%;
+}
+
+/* Responsive adjustments for dashboard */
+@media (max-width: 768px) {
+  .dashboard {
+    grid-template-columns: 1fr;
+    padding: 2rem 4vw;
+    gap: 1.5rem;
+  }
+
+  .dashboard__sidebar {
+    order: 2;
+  }
+
+  .dashboard__content {
+    order: 1;
+  }
+
+  .booking-card {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .dashboard {
+    padding: 1.5rem 3vw;
+  }
+
+  .dashboard__content h1 {
+    font-size: clamp(1.5rem, 6vw, 2rem);
+  }
+
+  .dashboard__sidebar,
+  .dashboard__content {
+    padding: 1.5rem;
+  }
+
+  .booking-card {
+    padding: 1.25rem;
+  }
+
+  .booking-card__dates,
+  .booking-card__guest {
+    font-size: 0.85rem;
+  }
+}
+
